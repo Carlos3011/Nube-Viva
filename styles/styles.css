@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    background: url('/img/smoke.gif') no-repeat center center fixed; /* Agregado gif de fondo */
+    background-size: cover; /* Asegura que el gif cubra toda la pantalla */
+}
+h1,h2,h3{
+    color: #ffffff;
+    font-weight: bold;
+}
+p{
+    text-align: justify;
+}
+.navbar {
+    background-color: #343a40;
+}
+.navbar-brand {
+    font-weight: bold;
+    color: #ffffff !important;
+}
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card-title {
+    font-weight: bold;
+}
+.card-text {
+    color: #888;
+}
+.footer {
+    margin-top: auto;
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+.hover-effect {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.hover-effect:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.zoom-image {
+    transition: transform 0.3s;
+    border: 5px solid #ffffff; /* Marco blanco alrededor de la imagen */
+}
+.zoom-image:hover {
+    transform: scale(1.1); /* Zoom al pasar el mouse */
+}
+.badge {
+    font-size: 1.2em; /* Aumenta el tamaño de la fuente */
+    padding: 10px 15px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    margin: 5px; /* Espaciado entre las etiquetas */
+}
+.badge.bg-secondary {
+    background-color: #6c757d; /* Color de fondo */
+    color: #ffffff; /* Color del texto */
+}
+.badge.bg-secondary:hover {
+    background-color: #5a6268; /* Color de fondo al pasar el mouse */
+    color: #faed79; /* Color del texto al pasar el mouse */
+}
